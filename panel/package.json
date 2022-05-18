@@ -4,15 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-   "dev": "next",
-   "start": "next start",
-   "build": "next build"
+    "dev": "next --port 3001",
+    "start": "next start",
+    "build": "next build"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "next": "^12.1.6",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "formik": "^2.1.5",
+    "next": "^9.5.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-icons": "^3.11.0",
+    "swr": "^0.3.3",
+    "tailwindcss": "^1.8.10"
   }
 }
